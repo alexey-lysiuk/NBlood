@@ -3897,7 +3897,7 @@
 					"\"$(SRCROOT)/../../source/mact/include\"",
 					"\"$(SRCROOT)/../../source/libsmackerdec/include\"",
 				);
-				INFOPLIST_FILE = "EDuke32 copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/bundles/NBlood.app/Contents/Info.plist";
 				LLVM_LTO = NO;
 				OTHER_CFLAGS = (
 					"-D_THREAD_SAFE",
@@ -3922,7 +3922,7 @@
 					"$(OTHER_CFLAGS)",
 					"-Wno-c++11-narrowing",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.voidpoint.eduke32;
+				PRODUCT_BUNDLE_IDENTIFIER = net.retrohost.nukeykt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -4000,7 +4000,7 @@
 					"\"$(SRCROOT)/../../source/mact/include\"",
 					"\"$(SRCROOT)/../../source/libsmackerdec/include\"",
 				);
-				INFOPLIST_FILE = "EDuke32 copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/bundles/NBlood.app/Contents/Info.plist";
 				LLVM_LTO = YES;
 				OTHER_CFLAGS = (
 					"-D_THREAD_SAFE",
@@ -4025,7 +4025,7 @@
 					"$(OTHER_CFLAGS)",
 					"-Wno-c++11-narrowing",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.voidpoint.eduke32;
+				PRODUCT_BUNDLE_IDENTIFIER = net.retrohost.nukeykt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WARNING_CFLAGS = (
 					"-Wall",

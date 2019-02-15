@@ -177,7 +177,7 @@ static void CreateApplicationMenus(void)
 static int retval = -1;
 
 static struct {
-    grpfile_t const * grp;
+    struct grpfile_t const * grp;
     int fullscreen;
     int xdim3d, ydim3d, bpp3d;
     int forcesetup;
@@ -186,7 +186,6 @@ static struct {
 @interface StartupWindow : NSWindow <NSWindowDelegate>
 {
     NSMutableArray *modeslist3d;
-    GameListSource *gamelistsrc;
 
     NSButton *alwaysShowButton;
     NSButton *fullscreenButton;
@@ -417,7 +416,6 @@ static struct {
 
 - (void)dealloc
 {
-    [gamelistsrc release];
     [modeslist3d release];
     [super dealloc];
 }
@@ -495,11 +493,6 @@ static struct {
         settings.fullscreen = validmode[mode].fs;
     }
 
-    int row = [[gameList documentView] selectedRow];
-    if (row >= 0) {
-        settings.grp = [[gamelistsrc grpAtIndex:row] entryptr];
-    }
-
     settings.forcesetup = [alwaysShowButton state] == NSOnState;
 
     retval = 1;
@@ -520,24 +513,6 @@ static struct {
     {
         if ([control respondsToSelector:@selector(setEnabled:)])
             [control setEnabled:true];
-    }
-
-    gamelistsrc = [[GameListSource alloc] init];
-    [[gameList documentView] setDataSource:gamelistsrc];
-    [[gameList documentView] deselectAll:nil];
-
-    if (settings.grp)
-    {
-        int row = [gamelistsrc findIndexForGrpname:[NSString stringWithUTF8String:settings.grp->filename]];
-        if (row >= 0)
-        {
-            [[gameList documentView] scrollRowToVisible:row];
-#if defined MAC_OS_X_VERSION_10_3 && MAC_OS_X_VERSION_MIN_REQUIRED >= MAC_OS_X_VERSION_10_3
-            [[gameList documentView] selectRowIndexes:[NSIndexSet indexSetWithIndex:row] byExtendingSelection:NO];
-#else
-            [[gameList documentView] selectRow:row byExtendingSelection:NO];
-#endif
-        }
     }
 
     [cancelButton setEnabled:true];
@@ -679,13 +654,6 @@ int startwin_run(void)
 {
     if (startwin == nil) return 0;
 
-    settings.fullscreen = ud.setup.fullscreen;
-    settings.xdim3d = ud.setup.xdim;
-    settings.ydim3d = ud.setup.ydim;
-    settings.bpp3d = ud.setup.bpp;
-    settings.forcesetup = ud.setup.forcesetup;
-    settings.grp = g_selectedGrp;
-
     [startwin setupRunMode];
 
     do
@@ -698,15 +666,6 @@ int startwin_run(void)
 
     [startwin setupMessagesMode];
     [nsapp updateWindows];
-
-    if (retval) {
-        ud.setup.fullscreen = settings.fullscreen;
-        ud.setup.xdim = settings.xdim3d;
-        ud.setup.ydim = settings.ydim3d;
-        ud.setup.bpp = settings.bpp3d;
-        ud.setup.forcesetup = settings.forcesetup;
-        g_selectedGrp = settings.grp;
-    }
 
     return retval;
 }
