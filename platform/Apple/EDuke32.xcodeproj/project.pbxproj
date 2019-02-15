@@ -192,6 +192,7 @@
 		8A9E0DC72216D5C0000327F4 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D6E2216CC7B000327F4 /* libvorbisfile.a */; };
 		8A9E0DC82216D5C0000327F4 /* libvpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D722216CC7C000327F4 /* libvpx.a */; };
 		8A9E0DCC2216D5FD000327F4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0DCA2216D5E1000327F4 /* CoreVideo.framework */; };
+		8A9E0DCE2216D6F0000327F4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0DCA2216D5E1000327F4 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -474,14 +475,9 @@
 		0008EA6119F1B04F0091588D /* unix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unix.c; path = ../../source/enet/src/unix.c; sourceTree = SOURCE_ROOT; };
 		0008EA6219F1B04F0091588D /* win32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = win32.c; path = ../../source/enet/src/win32.c; sourceTree = SOURCE_ROOT; };
 		0008EA7719F1B1AC0091588D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		0008EA7919F1B1B40091588D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		0008EA7B19F1B1C90091588D /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		0008EA7D19F1B1CE0091588D /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		0008EA8119F1B1E20091588D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		0008EA8319F1B1E80091588D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		000C486D19F35516006E6B52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		000C486F19F35516006E6B52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0013832419F366280007DA6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00970E3319F207F000873EB9 /* a-c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = "a-c.cpp"; path = "../../source/build/src/a-c.cpp"; sourceTree = SOURCE_ROOT; };
 		00970E4E19F2108600873EB9 /* driver_nosound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = driver_nosound.cpp; path = ../../source/audiolib/src/driver_nosound.cpp; sourceTree = SOURCE_ROOT; };
 		00970E4F19F2108600873EB9 /* driver_nosound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = driver_nosound.h; path = ../../source/audiolib/src/driver_nosound.h; sourceTree = SOURCE_ROOT; };
@@ -561,9 +557,6 @@
 		8A9E0D662216C118000327F4 /* collections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collections.h; sourceTree = "<group>"; };
 		8A9E0D672216C118000327F4 /* fix16.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fix16.hpp; sourceTree = "<group>"; };
 		8A9E0D682216C118000327F4 /* softsurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = softsurface.h; sourceTree = "<group>"; };
-		8A9E0D692216CC54000327F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8A9E0D6A2216CC54000327F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		8A9E0D6B2216CC54000327F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8A9E0D6C2216CC7B000327F4 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = lib/libogg.a; sourceTree = "<group>"; };
 		8A9E0D6D2216CC7B000327F4 /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = lib/libvorbis.a; sourceTree = "<group>"; };
 		8A9E0D6E2216CC7B000327F4 /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = lib/libvorbisfile.a; sourceTree = "<group>"; };
@@ -615,6 +608,7 @@
 				8A9E0D802216CD09000327F4 /* AudioUnit.framework in Frameworks */,
 				8A9E0D842216CD4C000327F4 /* Carbon.framework in Frameworks */,
 				8A9E0D812216CD38000327F4 /* CoreAudio.framework in Frameworks */,
+				8A9E0DCE2216D6F0000327F4 /* CoreVideo.framework in Frameworks */,
 				8A9E0D7B2216CCD2000327F4 /* Cocoa.framework in Frameworks */,
 				8A9E0D7D2216CCD8000327F4 /* ForceFeedback.framework in Frameworks */,
 				8A9E0D7C2216CCD5000327F4 /* IOKit.framework in Frameworks */,
@@ -670,15 +664,14 @@
 		0008E64019F1A5AA0091588D = {
 			isa = PBXGroup;
 			children = (
+				0008E65419F1A66E0091588D /* EDuke32 */,
 				8A9E0D852216CDB3000327F4 /* glad */,
 				0008E6BB19F1A9470091588D /* build */,
-				0008E65419F1A66E0091588D /* EDuke32 */,
 				0008E6BC19F1A9500091588D /* MACT */,
 				0008E6BD19F1A9590091588D /* AudioLib */,
 				0008EA4D19F1B03A0091588D /* ENet */,
 				0008E64D19F1A66E0091588D /* Dependencies */,
 				0008E64C19F1A66E0091588D /* Products */,
-				8A9E0DCB2216D5FD000327F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -698,22 +691,14 @@
 		0008E64D19F1A66E0091588D /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				8A9E0DCA2216D5E1000327F4 /* CoreVideo.framework */,
-				8A9E0D6B2216CC54000327F4 /* AppKit.framework */,
-				8A9E0D6A2216CC54000327F4 /* CoreData.framework */,
-				8A9E0D692216CC54000327F4 /* Foundation.framework */,
-				0013832419F366280007DA6C /* QuartzCore.framework */,
-				00970E6019F2142400873EB9 /* CoreAudio.framework */,
-				00970E5A19F2139500873EB9 /* ForceFeedback.framework */,
-				0008EA8319F1B1E80091588D /* IOKit.framework */,
+				0008E64E19F1A66E0091588D /* Cocoa.framework */,
 				0008EA8119F1B1E20091588D /* AudioToolbox.framework */,
 				0008EA7D19F1B1CE0091588D /* AudioUnit.framework */,
-				0008EA7B19F1B1C90091588D /* CoreMIDI.framework */,
-				0008EA7919F1B1B40091588D /* OpenGL.framework */,
 				0008EA7719F1B1AC0091588D /* Carbon.framework */,
-				0008E64E19F1A66E0091588D /* Cocoa.framework */,
-				000C486D19F35516006E6B52 /* Foundation.framework */,
-				000C486F19F35516006E6B52 /* CoreGraphics.framework */,
+				00970E6019F2142400873EB9 /* CoreAudio.framework */,
+				8A9E0DCA2216D5E1000327F4 /* CoreVideo.framework */,
+				00970E5A19F2139500873EB9 /* ForceFeedback.framework */,
+				0008EA8319F1B1E80091588D /* IOKit.framework */,
 				00970E5D19F213B300873EB9 /* libiconv.dylib */,
 				8A9E0D6F2216CC7B000327F4 /* libFLAC.a */,
 				8A9E0D912216CEB3000327F4 /* libmikmod.a */,
@@ -1191,13 +1176,6 @@
 				8A9E0D8F2216CDB3000327F4 /* glad_wgl.c */,
 			);
 			path = src;
-			sourceTree = "<group>";
-		};
-		8A9E0DCB2216D5FD000327F4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
