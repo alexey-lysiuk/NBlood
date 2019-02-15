@@ -654,6 +654,12 @@ int startwin_run(void)
 {
     if (startwin == nil) return 0;
 
+	settings.fullscreen = gSetup.fullscreen;
+	settings.xdim3d = gSetup.xdim;
+	settings.ydim3d = gSetup.ydim;
+	settings.bpp3d = gSetup.bpp;
+	settings.forcesetup = gSetup.forcesetup;
+
     [startwin setupRunMode];
 
     do
@@ -666,6 +672,14 @@ int startwin_run(void)
 
     [startwin setupMessagesMode];
     [nsapp updateWindows];
+
+	if (retval) {
+		gSetup.fullscreen = settings.fullscreen;
+		gSetup.xdim = settings.xdim3d;
+		gSetup.ydim = settings.ydim3d;
+		gSetup.bpp = settings.bpp3d;
+		gSetup.forcesetup = settings.forcesetup;
+	}
 
     return retval;
 }
