@@ -1,17 +1,16 @@
 
+#define Rect CocoaRect
+
 #import <Cocoa/Cocoa.h>
 
-#include "duke3d.h"
-#include "game.h"
+#undef Rect
+
+#include "blood.h"
 #include "common.h"
 #include "common_game.h"
 #include "build.h"
 #include "compat.h"
 #include "baselayer.h"
-#include "grpscan.h"
-
-#import "GrpFile.game.h"
-#import "GameListSource.game.h"
 
 #ifndef MAC_OS_X_VERSION_10_5
 # define NSImageScaleNone NSScaleNone
