@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		0008EA3419F1AFA70091588D /* OS X */ = {
+		0008EA3419F1AFA70091588D /* All */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0008EA3519F1AFA70091588D /* Build configuration list for PBXAggregateTarget "OS X" */;
+			buildConfigurationList = 0008EA3519F1AFA70091588D /* Build configuration list for PBXAggregateTarget "All" */;
 			buildPhases = (
 			);
 			dependencies = (
 				0008EA3919F1AFAD0091588D /* PBXTargetDependency */,
 				0008EA3B19F1AFAD0091588D /* PBXTargetDependency */,
 			);
-			name = "OS X";
+			name = All;
 			productName = All;
 		};
 /* End PBXAggregateTarget section */
@@ -36,12 +36,6 @@
 		0008E6FE19F1AAFF0091588D /* pitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6E519F1AAFF0091588D /* pitch.cpp */; };
 		0008E70019F1AAFF0091588D /* vorbis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6E719F1AAFF0091588D /* vorbis.cpp */; };
 		0008E70119F1AAFF0091588D /* xa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6E819F1AAFF0091588D /* xa.cpp */; };
-		0008E73719F1ABB80091588D /* animlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E72519F1ABB80091588D /* animlib.cpp */; };
-		0008E73919F1ABB80091588D /* control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E72719F1ABB80091588D /* control.cpp */; };
-		0008E73B19F1ABB80091588D /* file_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E72919F1ABB80091588D /* file_lib.cpp */; };
-		0008E73D19F1ABB80091588D /* joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E72B19F1ABB80091588D /* joystick.cpp */; };
-		0008E73F19F1ABB80091588D /* keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E72D19F1ABB80091588D /* keyboard.cpp */; };
-		0008E74519F1ABB80091588D /* scriplib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E73319F1ABB80091588D /* scriplib.cpp */; };
 		0008E95919F1AC540091588D /* baselayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E8DC19F1AC530091588D /* baselayer.cpp */; };
 		0008E95B19F1AC540091588D /* cache1d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E8DE19F1AC530091588D /* cache1d.cpp */; };
 		0008E95C19F1AC540091588D /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E8DF19F1AC530091588D /* common.cpp */; };
@@ -193,6 +187,12 @@
 		8A9E0DC82216D5C0000327F4 /* libvpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D722216CC7C000327F4 /* libvpx.a */; };
 		8A9E0DCC2216D5FD000327F4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0DCA2216D5E1000327F4 /* CoreVideo.framework */; };
 		8A9E0DCE2216D6F0000327F4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0DCA2216D5E1000327F4 /* CoreVideo.framework */; };
+		8A9E0DE22216D7A4000327F4 /* animlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DDC2216D78C000327F4 /* animlib.cpp */; };
+		8A9E0DE32216D7A4000327F4 /* control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DDD2216D78C000327F4 /* control.cpp */; };
+		8A9E0DE42216D7A4000327F4 /* file_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DDE2216D78C000327F4 /* file_lib.cpp */; };
+		8A9E0DE52216D7A4000327F4 /* joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DDF2216D78C000327F4 /* joystick.cpp */; };
+		8A9E0DE62216D7A4000327F4 /* keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DE02216D78C000327F4 /* keyboard.cpp */; };
+		8A9E0DE72216D7A4000327F4 /* scriplib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DE12216D78C000327F4 /* scriplib.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +259,13 @@
 			remoteGlobalIDString = 0008EA4819F1B0020091588D;
 			remoteInfo = ENet;
 		};
+		8A9E0DCF2216D74F000327F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0008E64119F1A5AA0091588D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0008EA4819F1B0020091588D;
+			remoteInfo = ENet;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -286,21 +293,6 @@
 		0008E6E619F1AAFF0091588D /* pitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pitch.h; path = ../../source/audiolib/src/pitch.h; sourceTree = SOURCE_ROOT; };
 		0008E6E719F1AAFF0091588D /* vorbis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = vorbis.cpp; path = ../../source/audiolib/src/vorbis.cpp; sourceTree = SOURCE_ROOT; };
 		0008E6E819F1AAFF0091588D /* xa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = xa.cpp; path = ../../source/audiolib/src/xa.cpp; sourceTree = SOURCE_ROOT; };
-		0008E72319F1ABB80091588D /* _control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = _control.h; path = ../../source/mact/include/_control.h; sourceTree = SOURCE_ROOT; };
-		0008E72419F1ABB80091588D /* _scrplib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = _scrplib.h; path = ../../source/mact/src/_scrplib.h; sourceTree = SOURCE_ROOT; };
-		0008E72519F1ABB80091588D /* animlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = animlib.cpp; path = ../../source/mact/src/animlib.cpp; sourceTree = SOURCE_ROOT; };
-		0008E72619F1ABB80091588D /* animlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = animlib.h; path = ../../source/mact/include/animlib.h; sourceTree = SOURCE_ROOT; };
-		0008E72719F1ABB80091588D /* control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = control.cpp; path = ../../source/mact/src/control.cpp; sourceTree = SOURCE_ROOT; };
-		0008E72819F1ABB80091588D /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = control.h; path = ../../source/mact/include/control.h; sourceTree = SOURCE_ROOT; };
-		0008E72919F1ABB80091588D /* file_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = file_lib.cpp; path = ../../source/mact/src/file_lib.cpp; sourceTree = SOURCE_ROOT; };
-		0008E72A19F1ABB80091588D /* file_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = file_lib.h; path = ../../source/mact/include/file_lib.h; sourceTree = SOURCE_ROOT; };
-		0008E72B19F1ABB80091588D /* joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = joystick.cpp; path = ../../source/mact/src/joystick.cpp; sourceTree = SOURCE_ROOT; };
-		0008E72C19F1ABB80091588D /* joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = joystick.h; path = ../../source/mact/include/joystick.h; sourceTree = SOURCE_ROOT; };
-		0008E72D19F1ABB80091588D /* keyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = keyboard.cpp; path = ../../source/mact/src/keyboard.cpp; sourceTree = SOURCE_ROOT; };
-		0008E72E19F1ABB80091588D /* keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = keyboard.h; path = ../../source/mact/include/keyboard.h; sourceTree = SOURCE_ROOT; };
-		0008E73219F1ABB80091588D /* mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mouse.h; path = ../../source/mact/include/mouse.h; sourceTree = SOURCE_ROOT; };
-		0008E73319F1ABB80091588D /* scriplib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = scriplib.cpp; path = ../../source/mact/src/scriplib.cpp; sourceTree = SOURCE_ROOT; };
-		0008E73419F1ABB80091588D /* scriplib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = scriplib.h; path = ../../source/mact/include/scriplib.h; sourceTree = SOURCE_ROOT; };
 		0008E8A119F1AC530091588D /* a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = a.h; path = ../../source/build/include/a.h; sourceTree = SOURCE_ROOT; };
 		0008E8A219F1AC530091588D /* baselayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = baselayer.h; path = ../../source/build/include/baselayer.h; sourceTree = SOURCE_ROOT; };
 		0008E8A319F1AC530091588D /* build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = build.h; path = ../../source/build/include/build.h; sourceTree = SOURCE_ROOT; };
@@ -440,7 +432,6 @@
 		0008E9DE19F1AD9B0091588D /* sounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = sounds.h; path = ../../source/duke3d/src/sounds.h; sourceTree = SOURCE_ROOT; };
 		0008E9DF19F1AD9B0091588D /* soundsdyn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = soundsdyn.cpp; path = ../../source/duke3d/src/soundsdyn.cpp; sourceTree = SOURCE_ROOT; };
 		0008E9E019F1AD9B0091588D /* soundsdyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = soundsdyn.h; path = ../../source/duke3d/src/soundsdyn.h; sourceTree = SOURCE_ROOT; };
-		0008E9E119F1AD9B0091588D /* standard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = standard.h; path = ../../source/duke3d/src/standard.h; sourceTree = SOURCE_ROOT; };
 		0008E9E219F1AD9B0091588D /* startosx.game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = startosx.game.mm; path = ../../source/duke3d/src/startosx.game.mm; sourceTree = SOURCE_ROOT; };
 		0008EA0419F1ADC90091588D /* common_game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = common_game.h; path = ../../source/duke3d/src/common_game.h; sourceTree = SOURCE_ROOT; };
 		0008EA0519F1ADC90091588D /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.c; name = common.cpp; path = ../../source/duke3d/src/common.cpp; sourceTree = SOURCE_ROOT; };
@@ -597,6 +588,21 @@
 		8A9E0DAC2216CF07000327F4 /* fix16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fix16.c; sourceTree = "<group>"; };
 		8A9E0DAD2216CF07000327F4 /* wiibits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wiibits.cpp; sourceTree = "<group>"; };
 		8A9E0DCA2216D5E1000327F4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8A9E0DD22216D78C000327F4 /* _control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _control.h; sourceTree = "<group>"; };
+		8A9E0DD32216D78C000327F4 /* animlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = animlib.h; sourceTree = "<group>"; };
+		8A9E0DD42216D78C000327F4 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+		8A9E0DD52216D78C000327F4 /* file_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file_lib.h; sourceTree = "<group>"; };
+		8A9E0DD62216D78C000327F4 /* joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = joystick.h; sourceTree = "<group>"; };
+		8A9E0DD72216D78C000327F4 /* keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyboard.h; sourceTree = "<group>"; };
+		8A9E0DD82216D78C000327F4 /* mouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mouse.h; sourceTree = "<group>"; };
+		8A9E0DD92216D78C000327F4 /* scriplib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scriplib.h; sourceTree = "<group>"; };
+		8A9E0DDB2216D78C000327F4 /* _scrplib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _scrplib.h; sourceTree = "<group>"; };
+		8A9E0DDC2216D78C000327F4 /* animlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = animlib.cpp; sourceTree = "<group>"; };
+		8A9E0DDD2216D78C000327F4 /* control.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = control.cpp; sourceTree = "<group>"; };
+		8A9E0DDE2216D78C000327F4 /* file_lib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file_lib.cpp; sourceTree = "<group>"; };
+		8A9E0DDF2216D78C000327F4 /* joystick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = joystick.cpp; sourceTree = "<group>"; };
+		8A9E0DE02216D78C000327F4 /* keyboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keyboard.cpp; sourceTree = "<group>"; };
+		8A9E0DE12216D78C000327F4 /* scriplib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scriplib.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -804,7 +810,6 @@
 				0008E9DE19F1AD9B0091588D /* sounds.h */,
 				0008E9DF19F1AD9B0091588D /* soundsdyn.cpp */,
 				0008E9E019F1AD9B0091588D /* soundsdyn.h */,
-				0008E9E119F1AD9B0091588D /* standard.h */,
 				0008E9E219F1AD9B0091588D /* startosx.game.mm */,
 			);
 			path = EDuke32;
@@ -822,21 +827,8 @@
 		0008E6BC19F1A9500091588D /* MACT */ = {
 			isa = PBXGroup;
 			children = (
-				0008E72319F1ABB80091588D /* _control.h */,
-				0008E72419F1ABB80091588D /* _scrplib.h */,
-				0008E72519F1ABB80091588D /* animlib.cpp */,
-				0008E72619F1ABB80091588D /* animlib.h */,
-				0008E72719F1ABB80091588D /* control.cpp */,
-				0008E72819F1ABB80091588D /* control.h */,
-				0008E72919F1ABB80091588D /* file_lib.cpp */,
-				0008E72A19F1ABB80091588D /* file_lib.h */,
-				0008E72B19F1ABB80091588D /* joystick.cpp */,
-				0008E72C19F1ABB80091588D /* joystick.h */,
-				0008E72D19F1ABB80091588D /* keyboard.cpp */,
-				0008E72E19F1ABB80091588D /* keyboard.h */,
-				0008E73219F1ABB80091588D /* mouse.h */,
-				0008E73319F1ABB80091588D /* scriplib.cpp */,
-				0008E73419F1ABB80091588D /* scriplib.h */,
+				8A9E0DD12216D78C000327F4 /* include */,
+				8A9E0DDA2216D78C000327F4 /* src */,
 			);
 			name = MACT;
 			sourceTree = "<group>";
@@ -1178,6 +1170,37 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		8A9E0DD12216D78C000327F4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8A9E0DD22216D78C000327F4 /* _control.h */,
+				8A9E0DD32216D78C000327F4 /* animlib.h */,
+				8A9E0DD42216D78C000327F4 /* control.h */,
+				8A9E0DD52216D78C000327F4 /* file_lib.h */,
+				8A9E0DD62216D78C000327F4 /* joystick.h */,
+				8A9E0DD72216D78C000327F4 /* keyboard.h */,
+				8A9E0DD82216D78C000327F4 /* mouse.h */,
+				8A9E0DD92216D78C000327F4 /* scriplib.h */,
+			);
+			name = include;
+			path = ../../source/mact/include;
+			sourceTree = "<group>";
+		};
+		8A9E0DDA2216D78C000327F4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8A9E0DDB2216D78C000327F4 /* _scrplib.h */,
+				8A9E0DDC2216D78C000327F4 /* animlib.cpp */,
+				8A9E0DDD2216D78C000327F4 /* control.cpp */,
+				8A9E0DDE2216D78C000327F4 /* file_lib.cpp */,
+				8A9E0DDF2216D78C000327F4 /* joystick.cpp */,
+				8A9E0DE02216D78C000327F4 /* keyboard.cpp */,
+				8A9E0DE12216D78C000327F4 /* scriplib.cpp */,
+			);
+			name = src;
+			path = ../../source/mact/src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1214,6 +1237,7 @@
 			);
 			dependencies = (
 				0008EA3319F1AF450091588D /* PBXTargetDependency */,
+				8A9E0DD02216D74F000327F4 /* PBXTargetDependency */,
 				0008EA3119F1AF420091588D /* PBXTargetDependency */,
 				0008EA2F19F1AF3F0091588D /* PBXTargetDependency */,
 			);
@@ -1304,7 +1328,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0008EA3419F1AFA70091588D /* OS X */,
+				0008EA3419F1AFA70091588D /* All */,
 				0008E64A19F1A66E0091588D /* EDuke32 */,
 				0008E68519F1A8F10091588D /* Mapster32 */,
 				0008EA4819F1B0020091588D /* ENet */,
@@ -1457,12 +1481,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0008E73F19F1ABB80091588D /* keyboard.cpp in Sources */,
-				0008E73719F1ABB80091588D /* animlib.cpp in Sources */,
-				0008E73919F1ABB80091588D /* control.cpp in Sources */,
-				0008E74519F1ABB80091588D /* scriplib.cpp in Sources */,
-				0008E73B19F1ABB80091588D /* file_lib.cpp in Sources */,
-				0008E73D19F1ABB80091588D /* joystick.cpp in Sources */,
+				8A9E0DE22216D7A4000327F4 /* animlib.cpp in Sources */,
+				8A9E0DE32216D7A4000327F4 /* control.cpp in Sources */,
+				8A9E0DE42216D7A4000327F4 /* file_lib.cpp in Sources */,
+				8A9E0DE52216D7A4000327F4 /* joystick.cpp in Sources */,
+				8A9E0DE62216D7A4000327F4 /* keyboard.cpp in Sources */,
+				8A9E0DE72216D7A4000327F4 /* scriplib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1549,6 +1573,11 @@
 			isa = PBXTargetDependency;
 			target = 0008EA4819F1B0020091588D /* ENet */;
 			targetProxy = 0008EA7519F1B16A0091588D /* PBXContainerItemProxy */;
+		};
+		8A9E0DD02216D74F000327F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0008EA4819F1B0020091588D /* ENet */;
+			targetProxy = 8A9E0DCF2216D74F000327F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2815,7 +2844,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0008EA3519F1AFA70091588D /* Build configuration list for PBXAggregateTarget "OS X" */ = {
+		0008EA3519F1AFA70091588D /* Build configuration list for PBXAggregateTarget "All" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0008EA3619F1AFA70091588D /* Debug */,
