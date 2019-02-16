@@ -301,6 +301,8 @@
 		8A9E10842216F116000327F4 /* libglad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E10542216ED72000327F4 /* libglad.a */; };
 		8A9E10852216F19C000327F4 /* rev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0008E9D219F1AD9B0091588D /* rev.cpp */; };
 		8A9E10862216F1C2000327F4 /* startosx.game.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0EA92216E8ED000327F4 /* startosx.game.mm */; };
+		8ADC7B1822181CF200709207 /* eduke32.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8ADC7B1722181CEA00709207 /* eduke32.icns */; };
+		8ADC7B1922181CF600709207 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADC7B1622181CE300709207 /* game.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -475,7 +477,6 @@
 		0008E8A919F1AC530091588D /* dxtfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dxtfilter.h; path = ../../source/build/include/dxtfilter.h; sourceTree = SOURCE_ROOT; };
 		0008E8AB19F1AC530091588D /* editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = editor.h; path = ../../source/build/include/editor.h; sourceTree = SOURCE_ROOT; };
 		0008E8AC19F1AC530091588D /* glbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = glbuild.h; path = ../../source/build/include/glbuild.h; sourceTree = SOURCE_ROOT; };
-		0008E8AD19F1AC530091588D /* glext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = glext.h; path = ../../source/build/include/glext.h; sourceTree = SOURCE_ROOT; };
 		0008E8AF19F1AC530091588D /* hightile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = hightile.h; path = ../../source/build/include/hightile.h; sourceTree = SOURCE_ROOT; };
 		0008E8B019F1AC530091588D /* kplib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = kplib.h; path = ../../source/build/include/kplib.h; sourceTree = SOURCE_ROOT; };
 		0008E8B219F1AC530091588D /* lz4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lz4.h; path = ../../source/build/include/lz4.h; sourceTree = SOURCE_ROOT; };
@@ -965,6 +966,8 @@
 		8A9E10702216EE9E000327F4 /* LogError.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LogError.cpp; sourceTree = "<group>"; };
 		8A9E10712216EE9E000327F4 /* SmackerDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmackerDecoder.cpp; sourceTree = "<group>"; };
 		8A9E10762216EED5000327F4 /* libsmackerdec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsmackerdec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADC7B1622181CE300709207 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game.png; path = bundles/NBlood.app/Contents/Resources/game.png; sourceTree = "<group>"; };
+		8ADC7B1722181CEA00709207 /* eduke32.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = eduke32.icns; path = bundles/NBlood.app/Contents/Resources/eduke32.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1122,6 +1125,8 @@
 		0008E65419F1A66E0091588D /* EDuke32 */ = {
 			isa = PBXGroup;
 			children = (
+				0008EA1D19F1AEFC0091588D /* eduke32.icns */,
+				20C214691B02C19800917E58 /* game.png */,
 				8A9E104D2216E9E4000327F4 /* android.h */,
 				8A9E0FE32216E9E4000327F4 /* events_defs.h */,
 				8A9E104E2216E9E4000327F4 /* in_android.cpp */,
@@ -1138,8 +1143,6 @@
 				8A9E10452216E9E4000327F4 /* startwin.game.cpp */,
 				8A9E10462216E9E4000327F4 /* startwin.game.h */,
 				8A9E10472216E9E4000327F4 /* winbits.cpp */,
-				0008EA1D19F1AEFC0091588D /* eduke32.icns */,
-				20C214691B02C19800917E58 /* game.png */,
 				0008EA0D19F1AE820091588D /* astub.cpp */,
 				0008EA0E19F1AE820091588D /* m32common.cpp */,
 				0008EA0F19F1AE820091588D /* m32def.cpp */,
@@ -1344,7 +1347,6 @@
 				0008E8A919F1AC530091588D /* dxtfilter.h */,
 				0008E8AB19F1AC530091588D /* editor.h */,
 				0008E8AC19F1AC530091588D /* glbuild.h */,
-				0008E8AD19F1AC530091588D /* glext.h */,
 				20CEFB1D1E08A8FD0077879C /* hash.h */,
 				0008E8AF19F1AC530091588D /* hightile.h */,
 				206B3A051B074F3000E5DBD0 /* jwzgles.h */,
@@ -1620,6 +1622,8 @@
 		8A9E0EA32216E8C9000327F4 /* NBlood */ = {
 			isa = PBXGroup;
 			children = (
+				8ADC7B1722181CEA00709207 /* eduke32.icns */,
+				8ADC7B1622181CE300709207 /* game.png */,
 				8A9E0F032216E8F4000327F4 /* _al_midi.h */,
 				8A9E0F092216E8F5000327F4 /* _functio.h */,
 				8A9E0F2F2216E8F9000327F4 /* _midi.h */,
@@ -1933,6 +1937,7 @@
 			buildPhases = (
 				8A9E0F4F2216E91C000327F4 /* Sources */,
 				8A9E0F732216E91C000327F4 /* Frameworks */,
+				8ADC7B1522181C9300709207 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2039,6 +2044,15 @@
 			files = (
 				20C2146F1B02C1D800917E58 /* build.png in Resources */,
 				0008EA2319F1AF010091588D /* eduke32.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ADC7B1522181C9300709207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADC7B1822181CF200709207 /* eduke32.icns in Resources */,
+				8ADC7B1922181CF600709207 /* game.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
