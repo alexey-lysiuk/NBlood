@@ -938,94 +938,6 @@
 		8A9E0F452216E8FB000327F4 /* triggers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = triggers.cpp; path = ../../source/blood/src/triggers.cpp; sourceTree = "<group>"; };
 		8A9E0F902216E91C000327F4 /* NBlood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBlood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9E0FE32216E9E4000327F4 /* events_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = events_defs.h; path = ../../source/duke3d/src/events_defs.h; sourceTree = "<group>"; };
-		8A9E0FE52216E9E4000327F4 /* _defs_editor.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = _defs_editor.lua; sourceTree = "<group>"; };
-		8A9E0FE62216E9E4000327F4 /* _defs_game.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = _defs_game.lua; sourceTree = "<group>"; };
-		8A9E0FE72216E9E4000327F4 /* bcarray.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = bcarray.lua; sourceTree = "<group>"; };
-		8A9E0FE82216E9E4000327F4 /* bcheck.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = bcheck.lua; sourceTree = "<group>"; };
-		8A9E0FE92216E9E4000327F4 /* bitar.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitar.lua; sourceTree = "<group>"; };
-		8A9E0FEA2216E9E4000327F4 /* con_lang.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = con_lang.lua; sourceTree = "<group>"; };
-		8A9E0FEB2216E9E4000327F4 /* control.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = control.lua; sourceTree = "<group>"; };
-		8A9E0FEC2216E9E4000327F4 /* defs_common.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = defs_common.lua; sourceTree = "<group>"; };
-		8A9E0FED2216E9E4000327F4 /* dis_x64.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = dis_x64.lua; sourceTree = "<group>"; };
-		8A9E0FEE2216E9E4000327F4 /* dis_x86.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = dis_x86.lua; sourceTree = "<group>"; };
-		8A9E0FF02216E9E4000327F4 /* din_w_collapse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = din_w_collapse.png; sourceTree = "<group>"; };
-		8A9E0FF12216E9E4000327F4 /* din_w_crushing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = din_w_crushing.png; sourceTree = "<group>"; };
-		8A9E0FF22216E9E4000327F4 /* din_w_explosive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = din_w_explosive.png; sourceTree = "<group>"; };
-		8A9E0FF32216E9E4000327F4 /* din_w_toxic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = din_w_toxic.png; sourceTree = "<group>"; };
-		8A9E0FF42216E9E4000327F4 /* how_to_build_lunatic.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = how_to_build_lunatic.txt; sourceTree = "<group>"; };
-		8A9E0FF52216E9E4000327F4 /* lpeg-lunatic.patch */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lpeg-lunatic.patch"; sourceTree = "<group>"; };
-		8A9E0FF62216E9E4000327F4 /* lunacon.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lunacon.txt; sourceTree = "<group>"; };
-		8A9E0FF72216E9E4000327F4 /* lunatic.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = lunatic.conf; sourceTree = "<group>"; };
-		8A9E0FF82216E9E4000327F4 /* lunatic.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lunatic.txt; sourceTree = "<group>"; };
-		8A9E0FF92216E9E4000327F4 /* lunatic_sh.style */ = {isa = PBXFileReference; lastKnownFileType = text; path = lunatic_sh.style; sourceTree = "<group>"; };
-		8A9E0FFA2216E9E4000327F4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		8A9E0FFB2216E9E4000327F4 /* dump.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = dump.lua; sourceTree = "<group>"; };
-		8A9E0FFC2216E9E4000327F4 /* dynsymlist_editor.lds */ = {isa = PBXFileReference; lastKnownFileType = text; path = dynsymlist_editor.lds; sourceTree = "<group>"; };
-		8A9E0FFD2216E9E4000327F4 /* dynsymlist_game.lds */ = {isa = PBXFileReference; lastKnownFileType = text; path = dynsymlist_game.lds; sourceTree = "<group>"; };
-		8A9E0FFE2216E9E4000327F4 /* engine.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = engine.lua; sourceTree = "<group>"; };
-		8A9E0FFF2216E9E4000327F4 /* engine_maptext.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = engine_maptext.lua; sourceTree = "<group>"; };
-		8A9E10002216E9E4000327F4 /* fs.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = fs.lua; sourceTree = "<group>"; };
-		8A9E10012216E9E4000327F4 /* listglobals.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = listglobals.sh; sourceTree = "<group>"; };
-		8A9E10022216E9E4000327F4 /* lunacon.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = lunacon.lua; sourceTree = "<group>"; };
-		8A9E10032216E9E4000327F4 /* lunasave.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = lunasave.lua; sourceTree = "<group>"; };
-		8A9E10042216E9E4000327F4 /* lunatic_editor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lunatic_editor.cpp; sourceTree = "<group>"; };
-		8A9E10052216E9E4000327F4 /* lunatic_editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lunatic_editor.h; sourceTree = "<group>"; };
-		8A9E10062216E9E4000327F4 /* lunatic_game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lunatic_game.cpp; sourceTree = "<group>"; };
-		8A9E10072216E9E4000327F4 /* lunatic_game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lunatic_game.h; sourceTree = "<group>"; };
-		8A9E10092216E9E4000327F4 /* compinside.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = compinside.lua; sourceTree = "<group>"; };
-		8A9E100A2216E9E4000327F4 /* randwalk.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = randwalk.lua; sourceTree = "<group>"; };
-		8A9E100B2216E9E4000327F4 /* profdemo.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = profdemo.lua; sourceTree = "<group>"; };
-		8A9E100C2216E9E4000327F4 /* randgen.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = randgen.lua; sourceTree = "<group>"; };
-		8A9E100D2216E9E4000327F4 /* stat.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = stat.lua; sourceTree = "<group>"; };
-		8A9E100E2216E9E4000327F4 /* strict.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = strict.lua; sourceTree = "<group>"; };
-		8A9E10102216E9E4000327F4 /* animatesprites.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = animatesprites.con; sourceTree = "<group>"; };
-		8A9E10112216E9E4000327F4 /* checknearwall.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = checknearwall.con; sourceTree = "<group>"; };
-		8A9E10122216E9E4000327F4 /* damagehplane.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = damagehplane.lua; sourceTree = "<group>"; };
-		8A9E10132216E9E4000327F4 /* dangling_else.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = dangling_else.con; sourceTree = "<group>"; };
-		8A9E10142216E9E4000327F4 /* delmusicsfx.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = delmusicsfx.lua; sourceTree = "<group>"; };
-		8A9E10152216E9E4000327F4 /* else_brace_if.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = else_brace_if.con; sourceTree = "<group>"; };
-		8A9E10162216E9E4000327F4 /* event_chaining.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = event_chaining.con; sourceTree = "<group>"; };
-		8A9E10172216E9E4000327F4 /* gamearray.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = gamearray.con; sourceTree = "<group>"; };
-		8A9E10182216E9E4000327F4 /* gettimedate.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = gettimedate.con; sourceTree = "<group>"; };
-		8A9E10192216E9E4000327F4 /* getuserdef.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = getuserdef.con; sourceTree = "<group>"; };
-		8A9E101A2216E9E4000327F4 /* helixspawner.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = helixspawner.lua; sourceTree = "<group>"; };
-		8A9E101B2216E9E4000327F4 /* mapstate.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapstate.con; sourceTree = "<group>"; };
-		8A9E101C2216E9E4000327F4 /* maputil.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = maputil.lua; sourceTree = "<group>"; };
-		8A9E101D2216E9E4000327F4 /* nlcf_break.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = nlcf_break.con; sourceTree = "<group>"; };
-		8A9E101E2216E9E4000327F4 /* nlcf_return.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = nlcf_return.con; sourceTree = "<group>"; };
-		8A9E101F2216E9E4000327F4 /* qgetsysstr.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = qgetsysstr.con; sourceTree = "<group>"; };
-		8A9E10202216E9E4000327F4 /* qsubstr.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = qsubstr.con; sourceTree = "<group>"; };
-		8A9E10212216E9E4000327F4 /* quote_ops.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = quote_ops.con; sourceTree = "<group>"; };
-		8A9E10222216E9E4000327F4 /* rotfixed_actor.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = rotfixed_actor.con; sourceTree = "<group>"; };
-		8A9E10232216E9E4000327F4 /* screentext.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = screentext.con; sourceTree = "<group>"; };
-		8A9E10242216E9E4000327F4 /* shadexfog.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = shadexfog.lua; sourceTree = "<group>"; };
-		8A9E10252216E9E4000327F4 /* sprite_access.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = sprite_access.con; sourceTree = "<group>"; };
-		8A9E10262216E9E4000327F4 /* sprite_addtv.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = sprite_addtv.con; sourceTree = "<group>"; };
-		8A9E10272216E9E4000327F4 /* switch.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = switch.con; sourceTree = "<group>"; };
-		8A9E10282216E9E4000327F4 /* tables.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = tables.lua; sourceTree = "<group>"; };
-		8A9E10292216E9E4000327F4 /* test_bitar.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_bitar.lua; sourceTree = "<group>"; };
-		8A9E102A2216E9E4000327F4 /* test_dists.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_dists.lua; sourceTree = "<group>"; };
-		8A9E102B2216E9E4000327F4 /* test_geom.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_geom.lua; sourceTree = "<group>"; };
-		8A9E102C2216E9E4000327F4 /* test_rotspr.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_rotspr.lua; sourceTree = "<group>"; };
-		8A9E102D2216E9E4000327F4 /* thisactor_getzrange.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = thisactor_getzrange.con; sourceTree = "<group>"; };
-		8A9E102E2216E9E4000327F4 /* transhacktest.m32 */ = {isa = PBXFileReference; lastKnownFileType = text; path = transhacktest.m32; sourceTree = "<group>"; };
-		8A9E102F2216E9E4000327F4 /* transhacktest.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = transhacktest.map; sourceTree = "<group>"; };
-		8A9E10302216E9E4000327F4 /* weaponvars.con */ = {isa = PBXFileReference; lastKnownFileType = text; path = weaponvars.con; sourceTree = "<group>"; };
-		8A9E10312216E9E4000327F4 /* test.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.lua; sourceTree = "<group>"; };
-		8A9E10332216E9E4000327F4 /* bigytiles.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = bigytiles.lua; sourceTree = "<group>"; };
-		8A9E10342216E9E4000327F4 /* build.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.lua; sourceTree = "<group>"; };
-		8A9E10352216E9E4000327F4 /* cmpart.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmpart.lua; sourceTree = "<group>"; };
-		8A9E10362216E9E4000327F4 /* colenemy.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = colenemy.lua; sourceTree = "<group>"; };
-		8A9E10372216E9E4000327F4 /* findmaps.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = findmaps.sh; sourceTree = "<group>"; };
-		8A9E10382216E9E4000327F4 /* foreachmap.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = foreachmap.lua; sourceTree = "<group>"; };
-		8A9E10392216E9E4000327F4 /* map2text.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = map2text.lua; sourceTree = "<group>"; };
-		8A9E103A2216E9E4000327F4 /* mapastats.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapastats.lua; sourceTree = "<group>"; };
-		8A9E103B2216E9E4000327F4 /* mapdiff.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mapdiff.sh; sourceTree = "<group>"; };
-		8A9E103C2216E9E4000327F4 /* mapstats.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapstats.lua; sourceTree = "<group>"; };
-		8A9E103D2216E9E4000327F4 /* mapypan.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapypan.lua; sourceTree = "<group>"; };
-		8A9E103E2216E9E4000327F4 /* plax.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = plax.lua; sourceTree = "<group>"; };
-		8A9E103F2216E9E4000327F4 /* v.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = v.lua; sourceTree = "<group>"; };
-		8A9E10402216E9E4000327F4 /* xmath.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = xmath.lua; sourceTree = "<group>"; };
 		8A9E10412216E9E4000327F4 /* mdump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mdump.cpp; path = ../../source/duke3d/src/mdump.cpp; sourceTree = "<group>"; };
 		8A9E10422216E9E4000327F4 /* startgtk.game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = startgtk.game.cpp; path = ../../source/duke3d/src/startgtk.game.cpp; sourceTree = "<group>"; };
 		8A9E10432216E9E4000327F4 /* midi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = midi.h; path = ../../source/duke3d/src/midi.h; sourceTree = "<group>"; };
@@ -1214,7 +1126,6 @@
 				8A9E0FE32216E9E4000327F4 /* events_defs.h */,
 				8A9E104E2216E9E4000327F4 /* in_android.cpp */,
 				8A9E10492216E9E4000327F4 /* in_android.h */,
-				8A9E0FE42216E9E4000327F4 /* lunatic */,
 				8A9E10442216E9E4000327F4 /* mapster32.h */,
 				8A9E10412216E9E4000327F4 /* mdump.cpp */,
 				8A9E104C2216E9E4000327F4 /* mdump.h */,
@@ -1875,134 +1786,6 @@
 			name = NBlood;
 			sourceTree = "<group>";
 		};
-		8A9E0FE42216E9E4000327F4 /* lunatic */ = {
-			isa = PBXGroup;
-			children = (
-				8A9E0FE52216E9E4000327F4 /* _defs_editor.lua */,
-				8A9E0FE62216E9E4000327F4 /* _defs_game.lua */,
-				8A9E0FE72216E9E4000327F4 /* bcarray.lua */,
-				8A9E0FE82216E9E4000327F4 /* bcheck.lua */,
-				8A9E0FE92216E9E4000327F4 /* bitar.lua */,
-				8A9E0FEA2216E9E4000327F4 /* con_lang.lua */,
-				8A9E0FEB2216E9E4000327F4 /* control.lua */,
-				8A9E0FEC2216E9E4000327F4 /* defs_common.lua */,
-				8A9E0FED2216E9E4000327F4 /* dis_x64.lua */,
-				8A9E0FEE2216E9E4000327F4 /* dis_x86.lua */,
-				8A9E0FEF2216E9E4000327F4 /* doc */,
-				8A9E0FFB2216E9E4000327F4 /* dump.lua */,
-				8A9E0FFC2216E9E4000327F4 /* dynsymlist_editor.lds */,
-				8A9E0FFD2216E9E4000327F4 /* dynsymlist_game.lds */,
-				8A9E0FFE2216E9E4000327F4 /* engine.lua */,
-				8A9E0FFF2216E9E4000327F4 /* engine_maptext.lua */,
-				8A9E10002216E9E4000327F4 /* fs.lua */,
-				8A9E10012216E9E4000327F4 /* listglobals.sh */,
-				8A9E10022216E9E4000327F4 /* lunacon.lua */,
-				8A9E10032216E9E4000327F4 /* lunasave.lua */,
-				8A9E10042216E9E4000327F4 /* lunatic_editor.cpp */,
-				8A9E10052216E9E4000327F4 /* lunatic_editor.h */,
-				8A9E10062216E9E4000327F4 /* lunatic_game.cpp */,
-				8A9E10072216E9E4000327F4 /* lunatic_game.h */,
-				8A9E10082216E9E4000327F4 /* m32 */,
-				8A9E100B2216E9E4000327F4 /* profdemo.lua */,
-				8A9E100C2216E9E4000327F4 /* randgen.lua */,
-				8A9E100D2216E9E4000327F4 /* stat.lua */,
-				8A9E100E2216E9E4000327F4 /* strict.lua */,
-				8A9E100F2216E9E4000327F4 /* test */,
-				8A9E10312216E9E4000327F4 /* test.lua */,
-				8A9E10322216E9E4000327F4 /* util */,
-				8A9E103F2216E9E4000327F4 /* v.lua */,
-				8A9E10402216E9E4000327F4 /* xmath.lua */,
-			);
-			name = lunatic;
-			path = ../../source/duke3d/src/lunatic;
-			sourceTree = "<group>";
-		};
-		8A9E0FEF2216E9E4000327F4 /* doc */ = {
-			isa = PBXGroup;
-			children = (
-				8A9E0FF02216E9E4000327F4 /* din_w_collapse.png */,
-				8A9E0FF12216E9E4000327F4 /* din_w_crushing.png */,
-				8A9E0FF22216E9E4000327F4 /* din_w_explosive.png */,
-				8A9E0FF32216E9E4000327F4 /* din_w_toxic.png */,
-				8A9E0FF42216E9E4000327F4 /* how_to_build_lunatic.txt */,
-				8A9E0FF52216E9E4000327F4 /* lpeg-lunatic.patch */,
-				8A9E0FF62216E9E4000327F4 /* lunacon.txt */,
-				8A9E0FF72216E9E4000327F4 /* lunatic.conf */,
-				8A9E0FF82216E9E4000327F4 /* lunatic.txt */,
-				8A9E0FF92216E9E4000327F4 /* lunatic_sh.style */,
-				8A9E0FFA2216E9E4000327F4 /* Makefile */,
-			);
-			path = doc;
-			sourceTree = "<group>";
-		};
-		8A9E10082216E9E4000327F4 /* m32 */ = {
-			isa = PBXGroup;
-			children = (
-				8A9E10092216E9E4000327F4 /* compinside.lua */,
-				8A9E100A2216E9E4000327F4 /* randwalk.lua */,
-			);
-			path = m32;
-			sourceTree = "<group>";
-		};
-		8A9E100F2216E9E4000327F4 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				8A9E10102216E9E4000327F4 /* animatesprites.con */,
-				8A9E10112216E9E4000327F4 /* checknearwall.con */,
-				8A9E10122216E9E4000327F4 /* damagehplane.lua */,
-				8A9E10132216E9E4000327F4 /* dangling_else.con */,
-				8A9E10142216E9E4000327F4 /* delmusicsfx.lua */,
-				8A9E10152216E9E4000327F4 /* else_brace_if.con */,
-				8A9E10162216E9E4000327F4 /* event_chaining.con */,
-				8A9E10172216E9E4000327F4 /* gamearray.con */,
-				8A9E10182216E9E4000327F4 /* gettimedate.con */,
-				8A9E10192216E9E4000327F4 /* getuserdef.con */,
-				8A9E101A2216E9E4000327F4 /* helixspawner.lua */,
-				8A9E101B2216E9E4000327F4 /* mapstate.con */,
-				8A9E101C2216E9E4000327F4 /* maputil.lua */,
-				8A9E101D2216E9E4000327F4 /* nlcf_break.con */,
-				8A9E101E2216E9E4000327F4 /* nlcf_return.con */,
-				8A9E101F2216E9E4000327F4 /* qgetsysstr.con */,
-				8A9E10202216E9E4000327F4 /* qsubstr.con */,
-				8A9E10212216E9E4000327F4 /* quote_ops.con */,
-				8A9E10222216E9E4000327F4 /* rotfixed_actor.con */,
-				8A9E10232216E9E4000327F4 /* screentext.con */,
-				8A9E10242216E9E4000327F4 /* shadexfog.lua */,
-				8A9E10252216E9E4000327F4 /* sprite_access.con */,
-				8A9E10262216E9E4000327F4 /* sprite_addtv.con */,
-				8A9E10272216E9E4000327F4 /* switch.con */,
-				8A9E10282216E9E4000327F4 /* tables.lua */,
-				8A9E10292216E9E4000327F4 /* test_bitar.lua */,
-				8A9E102A2216E9E4000327F4 /* test_dists.lua */,
-				8A9E102B2216E9E4000327F4 /* test_geom.lua */,
-				8A9E102C2216E9E4000327F4 /* test_rotspr.lua */,
-				8A9E102D2216E9E4000327F4 /* thisactor_getzrange.con */,
-				8A9E102E2216E9E4000327F4 /* transhacktest.m32 */,
-				8A9E102F2216E9E4000327F4 /* transhacktest.map */,
-				8A9E10302216E9E4000327F4 /* weaponvars.con */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		8A9E10322216E9E4000327F4 /* util */ = {
-			isa = PBXGroup;
-			children = (
-				8A9E10332216E9E4000327F4 /* bigytiles.lua */,
-				8A9E10342216E9E4000327F4 /* build.lua */,
-				8A9E10352216E9E4000327F4 /* cmpart.lua */,
-				8A9E10362216E9E4000327F4 /* colenemy.lua */,
-				8A9E10372216E9E4000327F4 /* findmaps.sh */,
-				8A9E10382216E9E4000327F4 /* foreachmap.lua */,
-				8A9E10392216E9E4000327F4 /* map2text.lua */,
-				8A9E103A2216E9E4000327F4 /* mapastats.lua */,
-				8A9E103B2216E9E4000327F4 /* mapdiff.sh */,
-				8A9E103C2216E9E4000327F4 /* mapstats.lua */,
-				8A9E103D2216E9E4000327F4 /* mapypan.lua */,
-				8A9E103E2216E9E4000327F4 /* plax.lua */,
-			);
-			path = util;
-			sourceTree = "<group>";
-		};
 		8A9E10642216EE9E000327F4 /* libsmackerdec */ = {
 			isa = PBXGroup;
 			children = (
@@ -2633,25 +2416,26 @@
 		0008E64519F1A5AA0091588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_THREAD_SAFE,
+					STARTUP_WINDOW,
+					NO_GCC_BUILTINS,
+					"_FORTIFY_SOURCE=2",
+					USE_LIBVPX,
+					"SDL_TARGET=2",
+					"RENDERTYPESDL=1",
+					"MIXERTYPESDL=1",
+					USE_OPENGL,
+					POLYMER,
+					HAS_SOCKLEN_T,
+					NOASM,
+					HAVE_VORBIS,
+					HAVE_FLAC,
+					"DEBUG=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/include\"",
 					"\"$(SRCROOT)/include/SDL2\"",
@@ -2660,128 +2444,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		0008E64619F1A5AA0091588D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/include\"",
-					"\"$(SRCROOT)/include/SDL2\"",
-				);
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
-				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				USE_HEADERMAP = NO;
-			};
-			name = Release;
-		};
-		0008E67B19F1A66E0091588D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../source/audiolib/include\"",
-					"\"$(SRCROOT)/../../source/build/include\"",
-					"\"$(SRCROOT)/../../source/enet/include\"",
-					"\"$(SRCROOT)/../../source/glad/include\"",
-					"\"$(SRCROOT)/../../source/mact/include\"",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/bundles/EDuke32.app/Contents/Info.plist";
-				LLVM_LTO = NO;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-Wno-c++11-narrowing",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.voidpoint.eduke32;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
@@ -2797,7 +2459,77 @@
 					"-Wcast-qual",
 					"-Wno-parentheses-equality",
 					"-Wno-unused-value",
+					"-Wno-newline-eof",
+					"-Wno-c++11-narrowing",
 				);
+			};
+			name = Debug;
+		};
+		0008E64619F1A5AA0091588D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_THREAD_SAFE,
+					STARTUP_WINDOW,
+					NO_GCC_BUILTINS,
+					"_FORTIFY_SOURCE=2",
+					USE_LIBVPX,
+					"SDL_TARGET=2",
+					"RENDERTYPESDL=1",
+					"MIXERTYPESDL=1",
+					USE_OPENGL,
+					POLYMER,
+					HAS_SOCKLEN_T,
+					NOASM,
+					HAVE_VORBIS,
+					HAVE_FLAC,
+					NDEBUG,
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/include\"",
+					"\"$(SRCROOT)/include/SDL2\"",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unknown-warning-option",
+					"-Wpointer-arith",
+					"-Wno-char-subscripts",
+					"-Wno-missing-braces",
+					"-Wwrite-strings",
+					"-Wno-attributes",
+					"-Wno-strict-overflow",
+					"-Wno-unused-result",
+					"-Wlogical-op",
+					"-Wcast-qual",
+					"-Wno-parentheses-equality",
+					"-Wno-unused-value",
+					"-Wno-newline-eof",
+					"-Wno-c++11-narrowing",
+				);
+			};
+			name = Release;
+		};
+		0008E67B19F1A66E0091588D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../source/audiolib/include\"",
+					"\"$(SRCROOT)/../../source/build/include\"",
+					"\"$(SRCROOT)/../../source/enet/include\"",
+					"\"$(SRCROOT)/../../source/glad/include\"",
+					"\"$(SRCROOT)/../../source/mact/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/bundles/EDuke32.app/Contents/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voidpoint.eduke32;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2805,50 +2537,6 @@
 		0008E67C19F1A66E0091588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/audiolib/include\"",
@@ -2858,47 +2546,8 @@
 					"\"$(SRCROOT)/../../source/mact/include\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/bundles/EDuke32.app/Contents/Info.plist";
-				LLVM_LTO = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-Wno-c++11-narrowing",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidpoint.eduke32;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2906,56 +2555,6 @@
 		0008E6AE19F1A8F20091588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/audiolib/include\"",
@@ -2965,43 +2564,8 @@
 					"\"$(SRCROOT)/../../source/mact/include\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/bundles/Mapster32.app/Contents/Info.plist";
-				LLVM_LTO = NO;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidpoint.mapster32;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3009,50 +2573,6 @@
 		0008E6AF19F1A8F20091588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/audiolib/include\"",
@@ -3062,43 +2582,8 @@
 					"\"$(SRCROOT)/../../source/mact/include\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/bundles/Mapster32.app/Contents/Info.plist";
-				LLVM_LTO = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidpoint.mapster32;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -3106,542 +2591,72 @@
 		0008E6B919F1A9260091588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/build/include\"",
 					"\"$(SRCROOT)/../../source/glad/include\"",
 				);
-				LLVM_LTO = NO;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Debug;
 		};
 		0008E6BA19F1A9260091588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/build/include\"",
 					"\"$(SRCROOT)/../../source/glad/include\"",
 				);
-				LLVM_LTO = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Release;
 		};
 		0008E6C419F1A9AF0091588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/build/include\"",
 					"\"$(SRCROOT)/../../source/mact/include\"",
 				);
-				LLVM_LTO = NO;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Debug;
 		};
 		0008E6C519F1A9AF0091588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/build/include\"",
 					"\"$(SRCROOT)/../../source/mact/include\"",
 				);
-				LLVM_LTO = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Release;
 		};
 		0008E6CC19F1AAA30091588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EXECUTABLE_PREFIX = lib;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/audiolib/include\"",
 					"\"$(SRCROOT)/../../source/build/include\"",
 				);
-				LLVM_LTO = NO;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Debug;
 		};
 		0008E6CD19F1AAA30091588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				EXECUTABLE_PREFIX = lib;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/audiolib/include\"",
 					"\"$(SRCROOT)/../../source/build/include\"",
 				);
-				LLVM_LTO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Release;
 		};
@@ -3662,232 +2677,28 @@
 		0008EA4B19F1B0020091588D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/enet/include\"",
 				);
-				LLVM_LTO = NO;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Debug;
 		};
 		0008EA4C19F1B0020091588D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/enet/include\"",
 				);
-				LLVM_LTO = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 			};
 			name = Release;
 		};
 		8A9E0F8E2216E91C000327F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/audiolib/include\"",
@@ -3898,48 +2709,8 @@
 					"\"$(SRCROOT)/../../source/libsmackerdec/include\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/bundles/NBlood.app/Contents/Info.plist";
-				LLVM_LTO = NO;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-					"-Wno-newline-eof",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-Wno-c++11-narrowing",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.retrohost.nukeykt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3947,50 +2718,6 @@
 		8A9E0F8F2216E91C000327F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
-				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = NO;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_ASSIGN_ENUM = YES;
-				CLANG_WARN_BOOL_CONVERSION = NO;
-				CLANG_WARN_CONSTANT_CONVERSION = NO;
-				CLANG_WARN_CXX0X_EXTENSIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = NO;
-				CLANG_WARN_INT_CONVERSION = NO;
-				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
-				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
-				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_SIGN_COMPARE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNKNOWN_PRAGMAS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../source/audiolib/include\"",
@@ -4001,48 +2728,8 @@
 					"\"$(SRCROOT)/../../source/libsmackerdec/include\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/bundles/NBlood.app/Contents/Info.plist";
-				LLVM_LTO = YES;
-				OTHER_CFLAGS = (
-					"-D_THREAD_SAFE",
-					"-DSTARTUP_WINDOW",
-					"-DNDEBUG",
-					"-DNO_GCC_BUILTINS",
-					"-D_FORTIFY_SOURCE=2",
-					"-DUSE_LIBVPX",
-					"-DSDL_TARGET=2",
-					"-DRENDERTYPESDL=1",
-					"-DMIXERTYPESDL=1",
-					"-DUSE_OPENGL",
-					"-DPOLYMER",
-					"-DHAS_SOCKLEN_T",
-					"-DUSING_LTO",
-					"-DNOASM",
-					"-DHAVE_VORBIS",
-					"-DHAVE_FLAC",
-					"-Wno-newline-eof",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-Wno-c++11-narrowing",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.retrohost.nukeykt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unknown-warning-option",
-					"-Wpointer-arith",
-					"-Wno-char-subscripts",
-					"-Wno-missing-braces",
-					"-Wwrite-strings",
-					"-Wno-attributes",
-					"-Wno-strict-overflow",
-					"-Wno-unused-result",
-					"-Wlogical-op",
-					"-Wcast-qual",
-					"-Wno-parentheses-equality",
-					"-Wno-unused-value",
-				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
