@@ -125,7 +125,7 @@ void InitMirrors(void)
             int nLink2 = sprite[nLink].owner & 0xfff;
             int j = sprite[nLink2].sectnum;
             if (sector[j].ceilingpicnum != 504)
-                ThrowError("Lower link sector %d doesn',27h,'t have mirror picnum\n", j);
+                ThrowError("Lower link sector %d doesn't have mirror picnum\n", j);
             mirror[mirrorcnt].at0 = 2;
             mirror[mirrorcnt].at8 = sprite[nLink2].x-sprite[nLink].x;
             mirror[mirrorcnt].atc = sprite[nLink2].y-sprite[nLink].y;
@@ -207,6 +207,7 @@ void sub_5571C(char mode)
 
 void sub_557C4(int x, int y, int interpolation)
 {
+    if (spritesortcnt == 0) return;
     int nViewSprites = spritesortcnt-1;
     for (int nTSprite = nViewSprites; nTSprite >= 0; nTSprite--)
     {
@@ -369,7 +370,9 @@ void DrawMirrors(int x, int y, int z, fix16_t a, fix16_t horiz)
             }
             case 1:
             {
+#ifdef USE_OPENGL
                 r_rorphase = 1;
+#endif
                 int nSector = mirror[i].at4;
                 renderDrawRoomsQ16(x+mirror[i].at8, y+mirror[i].atc, z+mirror[i].at10, a, horiz, nSector|MAXSECTORS);
                 viewProcessSprites(x+mirror[i].at8, y+mirror[i].atc, z+mirror[i].at10);
@@ -379,12 +382,16 @@ void DrawMirrors(int x, int y, int z, fix16_t a, fix16_t horiz)
                 sector[nSector].floorstat = fstat;
                 for (int i = 0; i < 16; i++)
                     ClearBitString(gotpic, 4080+i);
+#ifdef USE_OPENGL
                 r_rorphase = 0;
+#endif
                 return;
             }
             case 2:
             {
+#ifdef USE_OPENGL
                 r_rorphase = 1;
+#endif
                 int nSector = mirror[i].at4;
                 renderDrawRoomsQ16(x+mirror[i].at8, y+mirror[i].atc, z+mirror[i].at10, a, horiz, nSector|MAXSECTORS);
                 viewProcessSprites(x+mirror[i].at8, y+mirror[i].atc, z+mirror[i].at10);
@@ -394,7 +401,9 @@ void DrawMirrors(int x, int y, int z, fix16_t a, fix16_t horiz)
                 sector[nSector].ceilingstat = cstat;
                 for (int i = 0; i < 16; i++)
                     ClearBitString(gotpic, 4080+i);
+#ifdef USE_OPENGL
                 r_rorphase = 0;
+#endif
                 return;
             }
             }

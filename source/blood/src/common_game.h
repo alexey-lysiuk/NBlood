@@ -21,6 +21,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 //-------------------------------------------------------------------------
 #pragma once
+#include "baselayer.h"
 #include "build.h"
 #include "cache1d.h"
 #include "common.h"
@@ -38,7 +39,8 @@ extern int g_useCwd;
 #define APPBASENAME "nblood"
 #endif
 
-#define BYTEVERSION 100
+#define BYTEVERSION 101
+#define EXEVERSION 100
 
 void _SetErrorLoc(const char *pzFile, int nLine);
 void _ThrowError(const char *pzFormat, ...);

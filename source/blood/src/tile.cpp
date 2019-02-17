@@ -75,7 +75,7 @@ char surfType[kMaxTiles];
 signed char tileShade[kMaxTiles];
 short voxelIndex[kMaxTiles];
 
-const char *pzBaseFileName = "TILES000.ART"; //"TILES%03i.ART";
+const char *pzBaseFileName = "TILES%03i.ART"; //"TILES%03i.ART";
 
 int tileInit(char a1, const char *a2)
 {
@@ -116,7 +116,9 @@ int tileInit(char a1, const char *a2)
         if (!hVox)
             continue;
         char *pVox = (char*)gSysRes.Load(hVox);
+#ifdef USE_OPENGL
         voxmodels[i] = loadkvxfrombuf(pVox, hVox->size);
+#endif
     }
     artLoaded = 1;
 
