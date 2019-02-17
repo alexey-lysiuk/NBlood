@@ -48,3 +48,5 @@ project.xcworkspace/
 *.dSYM/
 
 .DS_Store
+DerivedData/
+*.xcscheme
