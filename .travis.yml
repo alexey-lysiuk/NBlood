@@ -36,6 +36,7 @@ matrix:
 
 script:
   - if [[ -n "$USE_XCODE" ]]; then
+      cd platform/Apple;
       set -o pipefail && xcodebuild -configuration Release | xcpretty;
       exit;
     elif [[ $TRAVIS_OS_NAME == 'osx' ]]; then
