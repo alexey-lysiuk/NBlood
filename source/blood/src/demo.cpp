@@ -38,6 +38,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "fire.h"
 #include "gamemenu.h"
 #include "globals.h"
+#include "levels.h"
 #include "menu.h"
 #include "messages.h"
 #include "misc.h"
@@ -86,8 +87,9 @@ CDemo::CDemo()
     hPFile = -1;
     hRFile = NULL;
     atb = 0;
+    pFirstDemo = NULL;
+    pCurrentDemo = NULL;
     at59ef = 0;
-    at59eb = 0;
     at2 = 0;
     memset(&atf, 0, sizeof(atf));
     m_bLegacy = false;
@@ -110,6 +112,15 @@ CDemo::~CDemo()
         fclose(hRFile);
         hRFile = NULL;
     }
+    auto pNextDemo = pFirstDemo;
+    for (auto pDemo = pFirstDemo; pDemo != NULL; pDemo = pNextDemo)
+    {
+        pNextDemo = pDemo->pNext;
+        delete pDemo;
+    }
+    pFirstDemo = NULL;
+    pCurrentDemo = NULL;
+    at59ef = 0;
     m_bLegacy = false;
 }
 
@@ -123,7 +134,7 @@ bool CDemo::Create(const char *pzFile)
     {
         for (int i = 0; i < 8 && !vc; i++)
         {
-            G_ModDirSnprintf(buffer, BMAX_PATH, "blood0%02d.dem", i);
+            G_ModDirSnprintf(buffer, BMAX_PATH, "%s0%02d.dem", BloodIniPre, i);
             if (access(buffer, F_OK) != -1)
                 vc = 1;
         }
@@ -211,7 +222,9 @@ bool CDemo::SetupPlayback(const char *pzFile)
     }
     else
     {
-        hPFile = kopen4loadfrommod(at59aa[at59eb], 0);
+        if (!pCurrentDemo)
+            return false;
+        hPFile = kopen4loadfrommod(pCurrentDemo->zName, 0);
         if (hPFile == -1)
             return false;
     }
@@ -385,10 +398,13 @@ void CDemo::StopPlayback(void)
 
 void CDemo::LoadDemoInfo(void)
 {
-    at59ef = 0;
+    auto pDemo = &pFirstDemo;
     const int opsm = pathsearchmode;
+    at59ef = 0;
     pathsearchmode = 0;
-    auto pList = klistpath("/", "blood*.dem", CACHE1D_FIND_FILE);
+    char zFN[BMAX_PATH];
+    Bsnprintf(zFN, BMAX_PATH, "%s*.dem", BloodIniPre);
+    auto pList = klistpath("/", zFN, CACHE1D_FIND_FILE);
     auto pIterator = pList;
     while (pIterator != NULL)
     {
@@ -400,20 +416,22 @@ void CDemo::LoadDemoInfo(void)
         if ((atf.signature == 0x1a4d4544 /* '\x1aMED' */&& atf.nVersion == BloodVersion)
             || (atf.signature == 0x1a4d4445 /* '\x1aMDE' */ && atf.nVersion == BYTEVERSION))
         {
-            strcpy(at59aa[at59ef], pIterator->name);
+            *pDemo = new DEMOCHAIN;
+            (*pDemo)->pNext = NULL;
+            Bstrncpy((*pDemo)->zName, pIterator->name, BMAX_PATH);
             at59ef++;
+            pDemo = &(*pDemo)->pNext;
         }
         pIterator = pIterator->next;
     }
     klistfree(pList);
     pathsearchmode = opsm;
+    pCurrentDemo = pFirstDemo;
 }
 
 void CDemo::NextDemo(void)
 {
-    at59eb++;
-    if (at59eb >= at59ef)
-        at59eb = 0;
+    pCurrentDemo = pCurrentDemo->pNext ? pCurrentDemo->pNext : pFirstDemo;
     SetupPlayback(NULL);
 }
 

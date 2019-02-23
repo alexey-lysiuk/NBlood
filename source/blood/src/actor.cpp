@@ -3447,7 +3447,6 @@ void actImpactMissile(spritetype *pMissile, int a2)
     case 317:
         sfxKill3DSound(pMissile, -1, -1);
         sfxPlay3DSound(pMissile->x, pMissile->y, pMissile->z, 306, pMissile->sectnum);
-        GibSprite(pMissile, GIBTYPE_6, NULL, NULL);
         if (a2 == 3 && pSpriteHit && (pThingInfo || pDudeInfo))
         {
             if (pDudeInfo)
@@ -4669,7 +4668,7 @@ int MoveMissile(spritetype *pSprite)
         if (vdi == 4)
         {
             walltype *pWall = &wall[gHitInfo.hitwall];
-            if (pWall->extra)
+            if (pWall->extra > 0)
             {
                 XWALL *pXWall = &xwall[pWall->extra];
                 if (pXWall->at10_6)
@@ -5046,6 +5045,8 @@ void actProcessSprites(void)
                             else
                             {
                                 int nObject = hit & 0x1fff;
+                                if ((hit&0xe000) != 0xc000 && (nObject < 0 || nObject >= 4096))
+                                    break;
                                 dassert(nObject >= 0 && nObject < kMaxSprites);
                                 spritetype *pObject = &sprite[nObject];
                                 actDamageSprite(actSpriteOwnerToSpriteId(pSprite), pObject, DAMAGE_TYPE_0, 12);
@@ -5055,6 +5056,8 @@ void actProcessSprites(void)
                         case 429:
                         {
                             int nObject = hit & 0x1fff;
+                            if ((hit&0xe000) != 0xc000 && (nObject < 0 || nObject >= 4096))
+                                break;
                             dassert(nObject >= 0 && nObject < kMaxSprites);
                             int UNUSED(nOwner) = actSpriteOwnerToSpriteId(pSprite);
                             actExplodeSprite(pSprite);
