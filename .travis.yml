@@ -36,7 +36,7 @@ matrix:
 script:
   - if [[ -n "$USE_XCODE" ]]; then
       cd platform/Apple;
-      for config in Debug Release; do set -o pipefail && xcodebuild -configuration $config | xcpretty; done;
+      for config in Debug Release; do xcodebuild -configuration $config; done;
       exit;
     elif [[ $TRAVIS_OS_NAME == 'osx' ]]; then
       brew install sdl2_mixer flac libvpx;
