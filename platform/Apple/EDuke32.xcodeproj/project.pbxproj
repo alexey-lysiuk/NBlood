@@ -1185,6 +1185,7 @@
 				0008E64C19F1A66E0091588D /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		0008E64C19F1A66E0091588D /* Products */ = {
 			isa = PBXGroup;
