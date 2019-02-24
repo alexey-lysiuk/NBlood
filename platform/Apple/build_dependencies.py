@@ -9,6 +9,9 @@ import urllib2
 
 
 class Package(object):
+    prefix = ''
+    environment = os.environ
+
     def __init__(self, name, source, checksum, arguments=()):
         self.name = name
         self.source = source
@@ -27,18 +30,12 @@ class Package(object):
             './configure',
             '--enable-static',
             '--disable-shared',
-            # TODO
-            '--prefix=' + _install_prefix,
-            'CPPFLAGS=',
-            'CFLAGS=',
-            'CXXFLAGS=',
-            'OBJCFLAGS=',
-            'OBJCXXFLAGS=',
-            'LDFLAGS=',
+            '--prefix=' + Package.prefix,
+            '--disable-dependency-tracking'
         ) + self.arguments
 
-        subprocess.check_call(configure_arguments, cwd=self._work_path)
-        subprocess.check_call(('make', 'install'), cwd=self._work_path)
+        subprocess.check_call(configure_arguments, cwd=self._work_path, env=Package.environment)
+        subprocess.check_call(('make', 'install'), cwd=self._work_path, env=Package.environment)
 
         self._work_path = None
         self._filename = None
@@ -47,12 +44,14 @@ class Package(object):
         assert not self._filename
         self._filename = self.source.rsplit('/', 1)[1]
 
-        checksum = self._download()
+        if os.path.exists(self._filename):
+            checksum = _calculate_checksum(self._filename)
+        else:
+            checksum = self._download()
 
         if checksum != self.checksum:
             raise Exception("Checksum for %s doesn't match!" % self._filename)
 
-        # todo: is this really needed?
         assert not self._work_path
         self._work_path = self._guess_work_path()
         self._extract()
@@ -95,19 +94,11 @@ class Package(object):
         result = ''
         shortest = sys.maxint
 
-        guess_filenames = (
-            'configure',
-            'Makefile',
-            'makefile',
-            'autogen.sh',
-            'CMakeLists.txt'
-        )
-
         for name in files.split('\n'):
             parts = name.split('/')
             parts_count = len(parts)
 
-            if parts[-1] in guess_filenames:
+            if 'configure' == parts[-1]:
                 if parts_count < shortest:
                     result = '/'.join(parts[:-1])
                     shortest = parts_count
@@ -115,7 +106,11 @@ class Package(object):
         return result
 
     def _extract(self):
-        subprocess.check_call(['tar', '-xf', self._filename])
+        try:
+            subprocess.check_call(['tar', '-xf', self._filename])
+        except (IOError, subprocess.CalledProcessError):
+            shutil.rmtree(self._work_path, ignore_errors=True)
+            raise
 
 
 def _calculate_checksum(filename):
@@ -131,11 +126,65 @@ def _calculate_checksum(filename):
     return checksum.hexdigest()
 
 
+def _setup_environment():
+    root_path = os.path.dirname(os.path.abspath(__file__))
+    build_path = root_path + os.sep + 'depsbuild'
+
+    if not os.path.exists(build_path):
+        os.mkdir(build_path)
+
+    os.chdir(build_path)
+
+    Package.prefix = root_path
+
+    macos_min_ver = '10.9'
+    common_flags = '-mmacosx-version-min=' + macos_min_ver
+
+    sdk_path = build_path + os.sep + 'MacOSX' + macos_min_ver + '.sdk'
+    if os.path.exists(sdk_path):
+        common_flags += ' -isysroot ' + sdk_path
+
+    cflags = common_flags + ' -I' + root_path + os.sep + 'include'
+    ldflags = common_flags + ' -L' + root_path + os.sep + 'lib'
+
+    # Workaround for undefined symbol _AudioUnitSetParameter linker error with playwave from libSDL2_mixer
+    ldflags += ' -framework AudioUnit'
+
+    Package.environment['CPPFLAGS'] = cflags
+    Package.environment['CFLAGS'] = cflags
+    Package.environment['CXXFLAGS'] = cflags
+    Package.environment['OBJCFLAGS'] = cflags
+    Package.environment['OBJCXXFLAGS'] = cflags
+    Package.environment['LDFLAGS'] = ldflags
+
+
 _packages = (
     Package(
-        name='ogg',
+        name='libogg',
         source='https://downloads.xiph.org/releases/ogg/libogg-1.3.3.tar.xz',
         checksum='4f3fc6178a533d392064f14776b23c397ed4b9f48f5de297aba73b643f955c08',
+    ),
+    Package(
+        name='libvorbis',
+        source='https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.6.tar.xz',
+        checksum='af00bb5a784e7c9e69f56823de4637c350643deedaf333d0fa86ecdba6fcb415',
+    ),
+    Package(
+        name='FLAC',
+        source='https://downloads.xiph.org/releases/flac/flac-1.3.2.tar.xz',
+        checksum='91cfc3ed61dc40f47f050a109b08610667d73477af6ef36dcad31c31a4a8d53f',
+        arguments=('--disable-cpplibs',)
+    ),
+    Package(
+        name='Yasm',
+        source='https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz',
+        checksum='3dce6601b495f5b3d45b59f7d2492a340ee7e84b5beca17e48f862502bd5603f',
+    ),
+    Package(
+        name='libvpx',
+        source='https://github.com/webmproject/libvpx/archive/v1.8.0.tar.gz',
+        checksum='86df18c694e1c06cc8f83d2d816e9270747a0ce6abe316e93a4f4095689373f6',
+        arguments=('--disable-examples', '--disable-unit-tests')
     ),
     Package(
         name='SDL2',
@@ -143,32 +192,17 @@ _packages = (
         checksum='255186dc676ecd0c1dbf10ec8a2cc5d6869b5079d8a38194c2aecdff54b324b1',
         arguments=('--without-x',)
     ),
+    Package(
+        name='SDL2_mixer',
+        source='https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.tar.gz',
+        checksum='b4cf5a382c061cd75081cf246c2aa2f9df8db04bdda8dcdc6b6cca55bede2419',
+        arguments=('--disable-music-ogg-shared', '--disable-music-flac-shared')
+    ),
 )
-
-_install_prefix = ''
-_common_flags = '-mmacosx-version-min=10.9'
-_cflags = _common_flags
-_ldflags = _common_flags
 
 
 def _main():
-    self_path = os.path.dirname(os.path.abspath(__file__))
-    build_path = self_path + os.sep + 'depsbuild'
-
-    global _install_prefix
-    _install_prefix = self_path
-
-    global _cflags
-    _cflags += '-I' + _install_prefix + os.pathsep + 'include'
-
-    global _ldflags
-    _ldflags += '-L' + _install_prefix + os.pathsep + 'lib'
-
-    if os.path.exists(build_path):
-        shutil.rmtree(build_path)
-
-    os.mkdir(build_path)
-    os.chdir(build_path)
+    _setup_environment()
 
     for package in _packages:
         package.build()
