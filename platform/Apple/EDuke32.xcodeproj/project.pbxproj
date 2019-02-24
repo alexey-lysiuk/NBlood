@@ -164,8 +164,6 @@
 		8A9E0D802216CD09000327F4 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0008EA7D19F1B1CE0091588D /* AudioUnit.framework */; };
 		8A9E0D812216CD38000327F4 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00970E6019F2142400873EB9 /* CoreAudio.framework */; };
 		8A9E0D842216CD4C000327F4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0008EA7719F1B1AC0091588D /* Carbon.framework */; };
-		8A9E0D932216CEBC000327F4 /* libmikmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D912216CEB3000327F4 /* libmikmod.a */; };
-		8A9E0D942216CEBE000327F4 /* libmodplug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D922216CEB3000327F4 /* libmodplug.a */; };
 		8A9E0DAE2216CF41000327F4 /* glsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0D9B2216CF06000327F4 /* glsurface.cpp */; };
 		8A9E0DAF2216CF50000327F4 /* softsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DA72216CF07000327F4 /* softsurface.cpp */; };
 		8A9E0DB02216CF5A000327F4 /* tilepacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DA42216CF07000327F4 /* tilepacker.cpp */; };
@@ -177,8 +175,6 @@
 		8A9E0DB62216CFC7000327F4 /* miniz_tdef.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0DA92216CF07000327F4 /* miniz_tdef.c */; };
 		8A9E0DB72216CFC7000327F4 /* miniz_tinfl.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E0D992216CF06000327F4 /* miniz_tinfl.c */; };
 		8A9E0DC02216D5C0000327F4 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D6F2216CC7B000327F4 /* libFLAC.a */; };
-		8A9E0DC12216D5C0000327F4 /* libmikmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D912216CEB3000327F4 /* libmikmod.a */; };
-		8A9E0DC22216D5C0000327F4 /* libmodplug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D922216CEB3000327F4 /* libmodplug.a */; };
 		8A9E0DC32216D5C0000327F4 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D6C2216CC7B000327F4 /* libogg.a */; };
 		8A9E0DC42216D5C0000327F4 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D702216CC7B000327F4 /* libSDL2_mixer.a */; };
 		8A9E0DC52216D5C0000327F4 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D712216CC7C000327F4 /* libSDL2.a */; };
@@ -203,8 +199,6 @@
 		8A9E0F7B2216E91C000327F4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0008EA8319F1B1E80091588D /* IOKit.framework */; };
 		8A9E0F7C2216E91C000327F4 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00970E5D19F213B300873EB9 /* libiconv.dylib */; };
 		8A9E0F7D2216E91C000327F4 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D6F2216CC7B000327F4 /* libFLAC.a */; };
-		8A9E0F7E2216E91C000327F4 /* libmikmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D912216CEB3000327F4 /* libmikmod.a */; };
-		8A9E0F7F2216E91C000327F4 /* libmodplug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D922216CEB3000327F4 /* libmodplug.a */; };
 		8A9E0F802216E91C000327F4 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D6C2216CC7B000327F4 /* libogg.a */; };
 		8A9E0F812216E91C000327F4 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D702216CC7B000327F4 /* libSDL2_mixer.a */; };
 		8A9E0F822216E91C000327F4 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E0D712216CC7C000327F4 /* libSDL2.a */; };
@@ -783,8 +777,6 @@
 		8A9E0D8B2216CDB3000327F4 /* khrplatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
 		8A9E0D8E2216CDB3000327F4 /* glad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		8A9E0D8F2216CDB3000327F4 /* glad_wgl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glad_wgl.c; sourceTree = "<group>"; };
-		8A9E0D912216CEB3000327F4 /* libmikmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmikmod.a; path = lib/libmikmod.a; sourceTree = "<group>"; };
-		8A9E0D922216CEB3000327F4 /* libmodplug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodplug.a; path = lib/libmodplug.a; sourceTree = "<group>"; };
 		8A9E0D952216CF06000327F4 /* mingw_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mingw_main.cpp; sourceTree = "<group>"; };
 		8A9E0D962216CF06000327F4 /* gtkbits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gtkbits.cpp; sourceTree = "<group>"; };
 		8A9E0D972216CF06000327F4 /* rawinput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rawinput.cpp; sourceTree = "<group>"; };
@@ -1086,8 +1078,6 @@
 				8A9E0D7C2216CCD5000327F4 /* IOKit.framework in Frameworks */,
 				8A9E0D7E2216CCFC000327F4 /* libiconv.dylib in Frameworks */,
 				8A9E0D742216CC89000327F4 /* libFLAC.a in Frameworks */,
-				8A9E0D932216CEBC000327F4 /* libmikmod.a in Frameworks */,
-				8A9E0D942216CEBE000327F4 /* libmodplug.a in Frameworks */,
 				8A9E0D752216CC89000327F4 /* libogg.a in Frameworks */,
 				8A9E0D762216CC89000327F4 /* libSDL2_mixer.a in Frameworks */,
 				8A9E0D772216CC89000327F4 /* libSDL2.a in Frameworks */,
@@ -1117,8 +1107,6 @@
 				0008EA8A19F1B2400091588D /* IOKit.framework in Frameworks */,
 				00970E5F19F2140E00873EB9 /* libiconv.dylib in Frameworks */,
 				8A9E0DC02216D5C0000327F4 /* libFLAC.a in Frameworks */,
-				8A9E0DC12216D5C0000327F4 /* libmikmod.a in Frameworks */,
-				8A9E0DC22216D5C0000327F4 /* libmodplug.a in Frameworks */,
 				8A9E0DC32216D5C0000327F4 /* libogg.a in Frameworks */,
 				8A9E0DC42216D5C0000327F4 /* libSDL2_mixer.a in Frameworks */,
 				8A9E0DC52216D5C0000327F4 /* libSDL2.a in Frameworks */,
@@ -1148,8 +1136,6 @@
 				8A9E0F7B2216E91C000327F4 /* IOKit.framework in Frameworks */,
 				8A9E0F7C2216E91C000327F4 /* libiconv.dylib in Frameworks */,
 				8A9E0F7D2216E91C000327F4 /* libFLAC.a in Frameworks */,
-				8A9E0F7E2216E91C000327F4 /* libmikmod.a in Frameworks */,
-				8A9E0F7F2216E91C000327F4 /* libmodplug.a in Frameworks */,
 				8A9E0F802216E91C000327F4 /* libogg.a in Frameworks */,
 				8A9E0F812216E91C000327F4 /* libSDL2_mixer.a in Frameworks */,
 				8A9E0F822216E91C000327F4 /* libSDL2.a in Frameworks */,
@@ -1217,8 +1203,6 @@
 				0008EA8319F1B1E80091588D /* IOKit.framework */,
 				00970E5D19F213B300873EB9 /* libiconv.dylib */,
 				8A9E0D6F2216CC7B000327F4 /* libFLAC.a */,
-				8A9E0D912216CEB3000327F4 /* libmikmod.a */,
-				8A9E0D922216CEB3000327F4 /* libmodplug.a */,
 				8A9E0D6C2216CC7B000327F4 /* libogg.a */,
 				8A9E0D702216CC7B000327F4 /* libSDL2_mixer.a */,
 				8A9E0D712216CC7C000327F4 /* libSDL2.a */,
